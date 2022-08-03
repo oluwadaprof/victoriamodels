@@ -10,10 +10,10 @@ const createRoutes = () => (
   <BrowserRouter>
     <Routes>
       <Route exact path="/" component={<Home />} />
-      <Route exact path="/about" component={<About />} />
-      <Route exact path="/apply" component={<Apply />} />
-      <Route exact path="/contact" component={<Contact />} />
-      <Route exact path="/models" component={<Models />} />
+      <Route exact path="about" component={<About />} />
+      <Route exact path="apply" component={<Apply />} />
+      <Route exact path="contact" component={<Contact />} />
+      <Route exact path="models" component={<Models />} />
     </Routes>
   </BrowserRouter>
 );
