@@ -1,11 +1,12 @@
-import createRoutes from './routes/routes';
+import CreateRoutes from './routes/Routes';
 import './App.css';
 import Home from './pages/home/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <CreateRoutes/>
     </div>
   );
 }
