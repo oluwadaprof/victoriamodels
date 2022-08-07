@@ -7,7 +7,7 @@ const Navbar = () => {
   
   return (
     <nav>
-      <div className="logo">VICTORIA OKAMA</div>
+      <div className="logo">OKAMA VICTORIA</div>
       <div className='links'>
         <NavLink
           to="/"

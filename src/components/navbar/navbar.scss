@@ -1,7 +1,7 @@
 nav{
     width: 94.4%;
     height: 2rem;
-    background-color: blue;
+    // background-color: blue;
     color: white;
     display: flex;
     padding: 2.6rem;
@@ -9,13 +9,13 @@ nav{
     font-family: 'Encode Sans', sans-serif;
     align-items: center;
     .logo{
-        margin-left: 2rem;
+        margin-left: 7.5rem;
         font-family: 'Encode Sans', sans-serif;
         font-weight: 600;
-        color: #FFFFFF;
+        color: white;
         margin-right: auto;
+        transform: scale(1.2);
     }
-    
        .links{
         text-decoration: none;
         margin-left: auto;
@@ -26,8 +26,8 @@ nav{
            margin-left: 5rem;
            font-family:'Encode Sans', sans-serif ;
            text-decoration: none;
+           color:var(--primary-color) ;
         }
-    
        } 
         
     

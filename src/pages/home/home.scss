@@ -1,3 +1,62 @@
 .home{
    display: flex;
+   background-image: url('../../assets/model-1209985_1920\ \(1\).jpg');
+   background-size: cover;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+   .float-container{
+      position: relative;
+      .first-section{
+         position: absolute;
+         top: 10rem;
+         left: -100rem;
+         color: white;
+         // background-color: red;
+         height: 40rem;
+         width: 40rem;
+        
+         h1{
+            font-weight: 400;
+            letter-spacing: 4px;
+            justify-content: left;
+            align-items: left;
+            margin-left: -10rem;
+            margin-top: 5rem;
+            line-height: 2.7rem;
+            transform: scale(2.5);
+            color: var(--primary-color);
+            span{
+               margin-left: -2.3rem;
+            }
+         }
+         .location{
+            margin-top: 5rem;
+            margin-left: 1.7rem;
+         }
+         p{
+            margin-top: 5rem;
+            margin-left: 1.7rem;
+            align-items: left;
+            line-height: 1.6rem;
+            text-align: left;
+         }
+         button{
+            background-color:var(--primary-color);
+            margin-left: -25rem;
+            margin-top: 4rem;
+            padding: 1rem;
+            width: 12rem;
+            font-family: 'Encode Sans', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            &:hover{
+               filter: brightness(10px);
+               background-color: white;
+               animation: ease-in 5ms;
+            }
+         }
+      }
+   }
 }

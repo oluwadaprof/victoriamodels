@@ -1,7 +1,7 @@
 .float-nav{
    flex: 2;
     height: 100vh;
-    background-color: black;
+   //  background-color: #080808;
     color: white;
     display: flex;
     .icons-div{
@@ -12,7 +12,8 @@
         justify-content: flex-end;
          .icon{
             width: max-width;
-            height: 2rem;
+            height: 1.4rem;
+            font-weight: 500;
             // border: 1px solid white;
             padding: 1rem;
             margin-bottom: 1rem;
@@ -26,8 +27,7 @@
             padding: 1rem;
             position: relative;
             z-index: 2;
-            
-            
+            transform: scale(1.3);  
          }
     }
    
