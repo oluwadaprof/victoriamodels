@@ -4,6 +4,7 @@
    background-size: cover;
    background-position: center; /* Center the image */
   background-repeat: no-repeat;
+  height: 664px;
    .float-container{
       position: relative;
       .first-section{
@@ -39,6 +40,7 @@
             align-items: left;
             line-height: 1.6rem;
             text-align: left;
+            font-family: 'Poppins', sans-serif;
          }
          button{
             background-color:var(--primary-color);
