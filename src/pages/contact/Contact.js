@@ -13,9 +13,13 @@ const Contact = () => {
       </div>
       <div className="contact__container">
         <h1>Contact Me</h1>
-        <form>
-          <input type="" name="" value=""/>
-          <input type="" name="" value="" />
+        <form className="form" >
+          <label>Name</label>
+          <input type="" name="" value="" placeholder="Adeeko Tobiloba" />
+          <label>Phone Number</label>
+          <input type="" name="" value="" placeholder="+234-81-2601-9796" />
+          <label>Message</label>
+          <textarea placeholder="Hi victoria" />
         </form>
       </div>
     </div>

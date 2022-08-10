@@ -6,11 +6,14 @@
   background-repeat: no-repeat;
   .contact__container{
     position: absolute;
-    top: 10rem;
+    top: 13rem;
     left: 9rem;
-    background-color: red;
+    // background-color: red;
+    border: 1px solid var(--primary-color);
+    padding: .6rem;
     h1{
         font-family: 'Encode Sans', sans-serif;
+        color: var(--primary-color);
         &:hover{
             // border-bottom: 2px solid var(--primary-color);
             &:after { transform: scaleX(1); }
@@ -21,7 +24,51 @@
             border-bottom: solid 3px #019fb6;  
             transform: scaleX(0);  
             transition: transform 250ms ease-in-out;
+            width: 11rem;
+            margin: auto;
+            align-self: center;
           }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        label{
+            position: relative;
+            left: -.1rem;
+            text-align: left;
+            margin-bottom: -.4rem;
+            font-family: 'Encode Sans', sans-serif;
+            color: white;
+        }
+        input{
+            background: none;
+            border-radius: 5px;
+            border: 1px solid var(--primary-color);
+            width: 25rem;
+            height: 3rem;
+            padding-left: 1rem;
+            color: white;
+            &:focus{
+                outline: none;
+                // color: white;
+            }
+            &:focus::placeholder{
+                color: transparent;
+            }
+        }
+        textarea{
+            resize: none;
+            height: 8rem;
+            border: 1px solid var(--primary-color);
+            background: none;
+            padding-top: 1rem;
+            padding-left: 1rem;
+            &:focus{
+                outline: none;
+            }
+        }
     }
 
 
