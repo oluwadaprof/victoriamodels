@@ -26,13 +26,13 @@ const Navbar = () => {
           About
         </NavLink>
         <NavLink
-          to="/apply"
+          to="/gallery"
           className='nav-link'
           // style={(isActive) => ({
           //   color: isActive === '' ? "green" : "blue",
           // })}
         >
-          Apply
+          Gallery
         </NavLink>
         <NavLink
           to="/contact"

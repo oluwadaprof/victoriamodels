@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
 import Floatnav from "../../components/floatnav/Floatnav";
-import './apply.scss'
+import './gallery.scss'
 
-const Apply = () => {
+const Gallery = () => {
   return (
     <div className="apply" >
       <Navbar />
@@ -17,4 +17,4 @@ const Apply = () => {
   );
 };
 
-export default Apply;
+export default Gallery;

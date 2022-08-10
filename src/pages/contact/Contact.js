@@ -15,12 +15,14 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <form className="form" >
           <label>Name</label>
-          <input type="" name="" value="" placeholder="Adeeko Tobiloba" />
+          <input type='text'  placeholder="Adeeko Tobiloba" />
           <label>Phone Number</label>
-          <input type="" name="" value="" placeholder="+234-81-2601-9796" />
+          <input type="text" placeholder="+234-81-2601-9796" />
           <label>Message</label>
           <textarea placeholder="Hi victoria" />
+          <button type="submit" >Send</button>
         </form>
+        
       </div>
     </div>
   );
