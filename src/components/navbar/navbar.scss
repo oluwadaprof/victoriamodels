@@ -20,6 +20,13 @@ nav{
         text-decoration: none;
         margin-left: auto;
         justify-content: space-between;
+        // &:after {
+        //     display:block;
+        //     content: '';
+        //     border-bottom: solid 3px white;  
+        //     transform: scaleX(0);  
+        //     transition: transform 250ms ease-in-out;
+        //   }
         
         .nav-link{
            padding-left: 5rem;
@@ -27,6 +34,7 @@ nav{
            font-family:'Encode Sans', sans-serif ;
            text-decoration: none;
            color:var(--primary-color) ;
+           
         }
        } 
         

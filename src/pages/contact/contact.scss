@@ -1,3 +1,29 @@
 .contact{
     display: flex;
+    background-image: url('../../assets/model-1209985_1920\ \(1\).jpg');
+    background-size: cover;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  .contact__container{
+    position: absolute;
+    top: 10rem;
+    left: 9rem;
+    background-color: red;
+    h1{
+        font-family: 'Encode Sans', sans-serif;
+        &:hover{
+            // border-bottom: 2px solid var(--primary-color);
+            &:after { transform: scaleX(1); }
+        }
+        &:after {
+            display:block;
+            content: '';
+            border-bottom: solid 3px #019fb6;  
+            transform: scaleX(0);  
+            transition: transform 250ms ease-in-out;
+          }
+    }
+
+
+  }
 }

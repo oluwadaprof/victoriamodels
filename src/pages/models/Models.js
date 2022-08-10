@@ -7,13 +7,17 @@ import "./models.scss";
 
 const Models = () => {
   return (
-    <div className="model">
-      <Navbar />
+    <div className="models">
+      <div className="top__nav-container">
+        <Navbar />
+      </div>
       <div className="model__content">
-        <Floatnav />
-        {/* <div className="model__content-container">
+        <div className="model__content-container">
           <Model />
-        </div> */}
+        </div>
+        <div className="nav__container">
+          <Floatnav />
+        </div>
       </div>
     </div>
   );
